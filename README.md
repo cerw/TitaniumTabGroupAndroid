@@ -1,1 +1,2 @@
 # TitaniumTabGroupAndroid
+![Demo](intro.gif)
