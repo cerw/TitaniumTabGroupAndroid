@@ -1,0 +1,12 @@
+<Alloy>
+    <Window id="win" title="Window B">
+
+        <Menu platform="android">
+            <MenuItem title="Item" itemId="1" onClick="doItem" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+        </Menu>
+
+        <RightNavButton platform="ios" title="Item" onClick="doItem" />
+
+        <Label onClick="changeMenu">Label B</Label>
+    </Window>
+</Alloy>
